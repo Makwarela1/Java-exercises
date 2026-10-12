@@ -1,5 +1,5 @@
 
-    class StudentDetails {
+   class StudentDetails {
         String studentName;
         int age;
         double averageMark;
@@ -7,7 +7,6 @@
     }
     public class Main {
         public static void main(String[] args) {
-
             // declare and create the object
             StudentDetails student = new StudentDetails();
             //access the attributes and assign values
@@ -21,6 +20,9 @@
             System.out.println("Age:" + student.age);
             System.out.println("Average mark: " + student.averageMark);
             System.out.println("Registered: " + student.isRegistered);
+
+
+
         }
 
     }
