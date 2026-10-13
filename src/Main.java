@@ -32,6 +32,11 @@ public class Main {
             PassOrFail response = new PassOrFail();
             response.mark = 50;
            response.MarkResponse();
+
+           //EXERCISE 2.2
+            GradeCalculator remark = new GradeCalculator();
+            remark.mark = 85;
+            System.out.println ("The remark to your grade is: " + remark.MarkGrade());
         }
 
     }
