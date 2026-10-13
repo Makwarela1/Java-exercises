@@ -49,6 +49,10 @@ public class Main {
             credentials.pass = "Tattoo";
             System.out.println("Your credentials: " + credentials.login());
 
+            //EXERCISE 3.1
+            StudentMarks displayMarks = new StudentMarks();
+            displayMarks.displayMarks();
+
         }
 
 
