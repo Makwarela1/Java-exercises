@@ -52,6 +52,9 @@ public class Main {
             //EXERCISE 3.1
             StudentMarks displayMarks = new StudentMarks();
             displayMarks.displayMarks();
+            //EXERCISE 3.2
+            ArrayStatistics minmax = new ArrayStatistics();
+            minmax.displayNumbers();
 
         }
 
