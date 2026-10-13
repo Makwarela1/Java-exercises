@@ -42,7 +42,15 @@ public class Main {
             NumberAnalysis digit =  new NumberAnalysis();
             digit.number = -3;
             System.out.println("The number is: " + digit.PosOrNeg() + " and " + digit.EvenOrOddOrZero());
+
+            // EXERCISE 2.4
+            LoginCheck credentials = new LoginCheck();
+            credentials.name = "Makwarela";
+            credentials.pass = "Tattoo";
+            System.out.println("Your credentials: " + credentials.login());
+
         }
+
 
     }
 
