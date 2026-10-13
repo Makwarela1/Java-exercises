@@ -1,8 +1,20 @@
 public class ShoppingTotal {
     String productName;
-    int unitPrice;
+    double unitPrice;
     int quantity;
+    double discount;
 
-    //method to calcualte the total
+    //method to calculate the total
+    double totalPrice(){
+        return quantity * unitPrice;
+    }
+    //method to calculate discount
+    double discountAmount(){
+        return totalPrice() * (discount);
+    }
+    //method to calcualte total discount price
+    double finalAmount(){
+        return totalPrice() - discountAmount();
+    }
 
 }
