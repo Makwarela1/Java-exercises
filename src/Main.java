@@ -37,6 +37,11 @@ public class Main {
             GradeCalculator remark = new GradeCalculator();
             remark.mark = 85;
             System.out.println ("The remark to your grade is: " + remark.MarkGrade());
+
+            // EXERCISE 2.3
+            NumberAnalysis digit =  new NumberAnalysis();
+            digit.number = -3;
+            System.out.println("The number is: " + digit.PosOrNeg() + " and " + digit.EvenOrOddOrZero());
         }
 
     }
