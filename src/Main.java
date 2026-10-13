@@ -1,4 +1,6 @@
- public class Main {
+import jdk.swing.interop.SwingInterOpUtils;
+
+public class Main {
         public static void main(String[] args) {
             // EXERCISE 1.1
             StudentDetails student = new StudentDetails();
@@ -25,6 +27,11 @@
             temp.celsius = 35;
             System.out.println("The temperature in farenheit is: " + temp.fahrenheit());
             System.out.println("The temeperature in celcius is: " + temp.returnToCelcius());
+
+            // EXERCISE 2.1
+            PassOrFail response = new PassOrFail();
+            response.mark = 50;
+           response.MarkResponse();
         }
 
     }
