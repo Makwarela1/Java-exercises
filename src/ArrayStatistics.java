@@ -10,14 +10,6 @@ public class ArrayStatistics {
         System.out.println("Max: " + max);
         System.out.println("The of elements in the array:" + numbers.length);
 
-       /* int count = 0;
-        for ( int i = 0; i < numbers.length; i++){
-            if (numbers[i] >= 50){
-                count++;
-            }
-            System.out.println(count);
-        } */
-
         return 0;
 
     }
