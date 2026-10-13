@@ -1,0 +1,14 @@
+public class StudentDetails {
+        String studentName;
+        int age;
+        double averageMark;
+        boolean isRegistered;
+        //method
+        void displayDetails (){
+            System.out.println("Student name: " + studentName);
+            System.out.println("Age:" + age);
+            System.out.println("Average mark: " + averageMark);
+            System.out.println("Registered: " + isRegistered);
+        }
+}
+
