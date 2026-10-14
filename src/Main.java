@@ -55,8 +55,10 @@ public class Main {
             //EXERCISE 3.2
             ArrayStatistics minmax = new ArrayStatistics();
             minmax.displayNumbers();
+            // EXERCISE 3.3
 
-            // CLASS EXAMPLE - 14/10
+
+            /*// CLASS EXAMPLE - 14/10
             Car car1 = new Car ("Red", "Toyota","Camry", 1920);
             Car car2 = new Car ("Blue", "Honda","Civic", 2000);
             Car car3 = new Car ("Red", "BMW","M3", 2020);
@@ -70,6 +72,7 @@ public class Main {
             for (Car car: cars){
                 car.display();
             }
+            */
         }
     }
 
