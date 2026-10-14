@@ -1,14 +1,12 @@
 
 public class Main {
         public static void main(String[] args) {
-            // EXERCISE 1.1
-            /*StudentDetails student = new StudentDetails();
+            //EXERCISE 1.1
+            StudentDetails student = new StudentDetails();
             student.studentName = "Naledi";
             student.age = 20;
             student.averageMark = 76.5;
-            boolean isRegistered = true;*/
-            StudentDetails student = new StudentDetails("Makwa", 23);
-            student.displayDetails();
+            boolean isRegistered = true;
             //EXERCISE 1.2
             ShoppingTotal items = new ShoppingTotal();
             items.productName = "Chocoalte Bar";
@@ -79,30 +77,19 @@ public class Main {
             product.displayDetails();
             product.reduceStock();
             product.stockValue();
+            // EXERCISE 4.4
+            Rectangle rectangle1 = new Rectangle();
+            rectangle1.width = 45.7;
+            rectangle1.length = 23;
+            rectangle1.area();
+            rectangle1.perimeter();
+            Rectangle rectangle2 = new Rectangle();
+            rectangle2.width = 2;
+            rectangle2.length = 5;
+            rectangle2.area();
+            rectangle2.perimeter();
 
 
-
-
-
-
-
-
-
-            /*// CLASS EXAMPLE - 14/10
-            Car car1 = new Car ("Red", "Toyota","Camry", 1920);
-            Car car2 = new Car ("Blue", "Honda","Civic", 2000);
-            Car car3 = new Car ("Red", "BMW","M3", 2020);
-            //array for the car class
-            Car[] cars = {car1, car2, car3};
-            //for (int i = 0; i < cars.length; i ++){
-              //  cars[i].display();
-            //}
-
-            // enchanced for loop
-            for (Car car: cars){
-                car.display();
-            }
-            */
         }
     }
 
