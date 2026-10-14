@@ -69,6 +69,16 @@ public class Main {
             backAccount.withdraw(56.9);
             backAccount.getBalance();
             //EXERCISE 4.3
+            Product product = new Product();
+            product.name = "Diary Milk";
+            product.productID = 12445783;
+            product.price = 12.95;
+            product.stock = 79;
+            product.quantity = 4;
+            product.addStock();
+            product.displayDetails();
+            product.reduceStock();
+            product.stockValue();
 
 
 
