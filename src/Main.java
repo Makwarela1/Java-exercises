@@ -58,6 +58,11 @@ public class Main {
             // EXERCISE 3.3
             ArraySearch arraySearch = new ArraySearch();
             arraySearch.SearchVaules();
+            //EXERCISE 4.1
+            Student student1 = new Student("Makwa", 402215635, 89.7, true);
+            student1.displayDetails();
+            Student student2 = new Student("Sophia",403218895, 49, true);
+            student2.displayDetails();
 
 
 
