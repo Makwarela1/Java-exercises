@@ -63,6 +63,12 @@ public class Main {
             student1.displayDetails();
             Student student2 = new Student("Sophia",403218895, 49, true);
             student2.displayDetails();
+            // EXERCISR 4.2
+            BankAccount backAccount = new BankAccount("Jane Doe", 1234567, 5000.00);
+            backAccount.deposit(1000);
+            backAccount.withdraw(56.9);
+            backAccount.getBalance();
+
 
 
 
