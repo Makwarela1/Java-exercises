@@ -1,11 +1,16 @@
 import java.util.Arrays;
-/*public class ArraySearch {
+public class ArraySearch {
+     void SearchVaules() {
+        int[] values = {75, 75, 21, 75, 3, 7};
+        int target = 21;
 
-    double SearchVaules() {
-        int[] values = {75, 79, 21, 5, 3, 7};
-
-        int target = 7;
-        int index = -1; // container for index
-
+        for (int i = 0; i < values.length; i++) {
+            if ( values[i] == target){
+                System.out.println("The index of the number is: " + i++);
+                return;
+            }
+            }
+         System.out.println("Value not found");
+        }
     }
-}*/
+

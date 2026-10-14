@@ -56,6 +56,13 @@ public class Main {
             ArrayStatistics minmax = new ArrayStatistics();
             minmax.displayNumbers();
             // EXERCISE 3.3
+            ArraySearch arraySearch = new ArraySearch();
+            arraySearch.SearchVaules();
+
+
+
+
+
 
 
             /*// CLASS EXAMPLE - 14/10
