@@ -23,9 +23,9 @@ public class BankAccount {
     }
 
     void withdraw (double amount){
-        if(amount <= newBalance){;
+        if(amount < newBalance){;
             withdrawAmount = amount;
-            System.out.println("You withdew this amount:" + withdrawAmount);
+            System.out.println("You withdrew this amount:" + withdrawAmount);
         }
     }
 
