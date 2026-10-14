@@ -2,11 +2,12 @@
 public class Main {
         public static void main(String[] args) {
             // EXERCISE 1.1
-            StudentDetails student = new StudentDetails();
+            /*StudentDetails student = new StudentDetails();
             student.studentName = "Naledi";
             student.age = 20;
             student.averageMark = 76.5;
-            boolean isRegistered = true;
+            boolean isRegistered = true;*/
+            StudentDetails student = new StudentDetails("Makwa", 23);
             student.displayDetails();
             //EXERCISE 1.2
             ShoppingTotal items = new ShoppingTotal();
@@ -55,8 +56,20 @@ public class Main {
             ArrayStatistics minmax = new ArrayStatistics();
             minmax.displayNumbers();
 
+            // CLASS EXAMPLE - 14/10
+            Car car1 = new Car ("Red", "Toyota","Camry", 1920);
+            Car car2 = new Car ("Blue", "Honda","Civic", 2000);
+            Car car3 = new Car ("Red", "BMW","M3", 2020);
+            //array for the car class
+            Car[] cars = {car1, car2, car3};
+            //for (int i = 0; i < cars.length; i ++){
+              //  cars[i].display();
+            //}
+
+            // enchanced for loop
+            for (Car car: cars){
+                car.display();
+            }
         }
-
-
     }
 

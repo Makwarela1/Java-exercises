@@ -1,5 +1,5 @@
 import java.util.Arrays;
-public class ArraySearch {
+/*public class ArraySearch {
 
     double SearchVaules() {
         int[] values = {75, 79, 21, 5, 3, 7};
@@ -8,4 +8,4 @@ public class ArraySearch {
         int index = -1; // container for index
 
     }
-}
+}*/
