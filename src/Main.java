@@ -95,6 +95,25 @@ public class Main {
             rectangle2.length = 5;
             rectangle2.area();
             rectangle2.perimeter();
+            //EXERCISE 5.1
+            StudentResults students1 = new StudentResults("124567", "Sophie Smith", new int[]{56,78,90});
+            StudentResults students2 = new StudentResults("567124", "Mariah Carey", new int[]{12,34,1});
+            StudentResults students3 = new StudentResults("874489", "John Cena", new int[]{23,89,75});
+
+            students1.displayResults();
+            students1.average();
+            students1.hasPassed();
+
+            students2.displayResults();
+            students2.average();
+            students2.hasPassed();
+
+            students3.displayResults();
+            students3.average();
+            students3.hasPassed();
+
+
+
 
 
         }
