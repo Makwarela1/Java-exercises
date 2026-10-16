@@ -150,11 +150,22 @@ public class Main {
             products[2].displayReceipt();
             products[3].displayReceipt();
 
+            /* EXERCISE 6.1
+            Explain why the following code may print `Different text`, then correct
+            it to compare String contents.
+            String first = new String("Java");
+            String second = new String("Java");
 
+            if (first == second) {
+                System.out.println("Same text");
+                    } else {
+                 System.out.println("Different text");
+              }
+            The following code print different text because the operator '==' compares memory address, it is not checking if the actual
+            content/value stored in those variables are actually equal. In this case you would have to use .equals()
+            to compare the actual contents.
 
-
-
-
+             */
 
         }
     }
