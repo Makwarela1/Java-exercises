@@ -104,6 +104,7 @@ public class Main {
             rectangle2.area();
             rectangle2.perimeter();
             System.out.println();
+
             //EXERCISE 5.1
             StudentResults students1 = new StudentResults("124567", "Sophie Smith", new int[]{56,78,90});
             StudentResults students2 = new StudentResults("567124", "Mariah Carey", new int[]{12,34,1});
@@ -114,20 +115,40 @@ public class Main {
             students1.hasPassed();
             students1.theHighestAverage();
             students1.displayInfo();
+
             System.out.println("---------------------------------------------");
             students2.displayInfo();
             students2.average();
             students2.hasPassed();
             students2.theHighestAverage();
             students2.displayInfo();
+
             System.out.println("---------------------------------------------");
             students3.displayInfo();
             students3.average();
             students3.hasPassed();
             students3.theHighestAverage();
             students3.displayInfo();
+
             System.out.println("---------------------------------------------");
             StudentResults.displayResults();
+
+           // EXERCISE 5.2
+            Shopping products[] = new Shopping[4];
+            products[0] = new Shopping("Ice Cream", 5.50, 4);
+            products[1] = new Shopping("Bread", 20.99, 2);
+            products[2] = new Shopping("Milk", 13.99, 25);
+            products[3] = new Shopping("Bed", 10000, 1);
+
+            System.out.println("-----------------------------------------------");
+
+            Shopping.subtotal(products);
+            products[0].finalSubtotal();
+
+            products[0].displayReceipt();
+            products[1].displayReceipt();
+            products[2].displayReceipt();
+            products[3].displayReceipt();
 
 
 
