@@ -150,7 +150,12 @@ public class Main {
             products[2].displayReceipt();
             products[3].displayReceipt();
 
-            /* EXERCISE 6.1
+            int[] numbers = {10, 20, 30};
+            for (int i = 0; i <= numbers.length; i++) {
+                System.out.println(numbers[i]);
+
+            /*
+            ==EXERCISE 6.1==
             Explain why the following code may print `Different text`, then correct
             it to compare String contents.
             String first = new String("Java");
@@ -164,6 +169,22 @@ public class Main {
             The following code print different text because the operator '==' compares memory address, it is not checking if the actual
             content/value stored in those variables are actually equal. In this case you would have to use .equals()
             to compare the actual contents.
+
+            == Exercise 6.2==
+            Explain the error and correct the loop condition.
+            int[] numbers = {10, 20, 30};
+                for (int i = 0; i <= numbers.length; i++) {
+                    System.out.println(numbers[i]);
+                }
+            The error in this code is this section of the loop 'i <= numbers.length'. This part tells Java that as long as 'i'
+            is less than or equal to length the numbers it must loop and display the index, howver the equals to does not fit here.
+            'i' displays the index of the array and by the time it reaches <= numbers.length the length has been reached.
+
+             CORRECTED CODE:
+             int[] numbers = {10, 20, 30};
+                for (int i = 0; i < numbers.length; i++) {
+                    System.out.println(numbers[i]);
+                }
 
              */
 
