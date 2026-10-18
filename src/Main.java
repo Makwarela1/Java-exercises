@@ -219,7 +219,25 @@ public class Main {
                     System.out.println(numbers[i]);
                 }
 
+            == Exercise 6.3==
+            Rewrite the conditions so a mark of 85 displays `Distinction`.
+            int mark = 85;
 
+            if (mark >= 50) {
+                System.out.println("Pass");
+                } else if (mark >= 80) {
+            System.out.println("Distinction");
+            }
+
+            CORRECTED CODE:
+            int mark = 85;
+            if (mark >= 80) {
+            System.out.println("Distinction");
+            } else if (mark > 0 && mark <= 50 ) {
+            System.out.println("Pass");
+            } else {
+            System.out.println("Fail");
+            }
              */
 
         }
